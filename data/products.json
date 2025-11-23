@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Eminem - The Marshall Mathers LP",
+    "price": 20000,
+    "image": "https://www.udiscovermusic.com/wp-content/uploads/2019/05/Eminem-The-Marshall-Mathers-LP.jpg",
+    "description": "Álbum icónico de Eminem, considerado uno de los mejores discos de hip hop."
+  },
+  {
+    "id": 2,
+    "title": "AC/DC - Back in Black",
+    "price": 18000,
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/92/Acdc_backinblack_cover.jpg",
+    "description": "El segundo álbum más vendido de la historia."
+  },
+  {
+    "id": 3,
+    "title": "Michael Jackson - Thriller",
+    "price": 25000,
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png",
+    "description": "El álbum más vendido de la historia. Un clásico eterno."
+  },
+  {
+    "id": 4,
+    "title": "Metallica - Master of Puppets",
+    "price": 22000,
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg",
+    "description": "Obra maestra del thrash metal lanzada en 1986."
+  }
+]
