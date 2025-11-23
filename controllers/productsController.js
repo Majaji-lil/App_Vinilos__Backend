@@ -28,13 +28,16 @@ exports.getById = (req, res) => {
 exports.create = (req, res) => {
   const items = readData();
   const nextId = items.length ? Math.max(...items.map(i => i.id)) + 1 : 1;
+
   const newItem = {
     id: nextId,
-    title: req.body.title || "Sin título",
+    name: req.body.name || "Sin título",
+    artist: req.body.artist || "Desconocido",
+    albumArt: req.body.albumArt || "",
     price: req.body.price || 0,
-    image: req.body.image || "",
     description: req.body.description || ""
   };
+
   items.push(newItem);
   writeData(items);
   res.status(201).json(newItem);
@@ -45,12 +48,19 @@ exports.update = (req, res) => {
   const items = readData();
   const index = items.findIndex(i => i.id === id);
   if (index === -1) return res.status(404).json({ message: "Not found" });
+
   const item = items[index];
   const updated = {
     ...item,
     ...req.body,
-    id: item.id
+    id: item.id,
+    name: req.body.name || item.name,
+    artist: req.body.artist || item.artist,
+    albumArt: req.body.albumArt || item.albumArt,
+    price: req.body.price || item.price,
+    description: req.body.description || item.description
   };
+
   items[index] = updated;
   writeData(items);
   res.json(updated);
@@ -61,6 +71,7 @@ exports.remove = (req, res) => {
   let items = readData();
   const found = items.find(i => i.id === id);
   if (!found) return res.status(404).json({ message: "Not found" });
+
   items = items.filter(i => i.id !== id);
   writeData(items);
   res.json({ message: "Deleted" });

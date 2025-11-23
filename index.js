@@ -3,13 +3,17 @@ const cors = require("cors");
 const productsRoutes = require("./routes/products");
 
 const app = express();
-app.use(cors());
-app.use(express.json());
+
+
+app.use(cors()); 
+app.use(express.json()); 
+
 
 app.use("/products", productsRoutes);
 
-// health
+
 app.get("/", (req, res) => res.json({ ok: true }));
+
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

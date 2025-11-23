@@ -1,30 +1,50 @@
 [
   {
     "id": 1,
-    "title": "Eminem - The Marshall Mathers LP",
-    "price": 20000,
-    "image": "https://www.udiscovermusic.com/wp-content/uploads/2019/05/Eminem-The-Marshall-Mathers-LP.jpg",
-    "description": "Álbum icónico de Eminem, considerado uno de los mejores discos de hip hop."
+    "name": "Dynamo",
+    "artist": "Soda Stereo",
+    "albumArt": "https://i.pinimg.com/originals/43/61/41/43614103df5cfc0b34d3390e3cab10ca.jpg",
+    "price": 20000.0,
+    "description": "Un álbum experimental y atmosférico donde Soda Stereo explora nuevas texturas sonoras, consolidando su legado en el rock latinoamericano."
   },
   {
     "id": 2,
-    "title": "AC/DC - Back in Black",
-    "price": 18000,
-    "image": "https://upload.wikimedia.org/wikipedia/en/9/92/Acdc_backinblack_cover.jpg",
-    "description": "El segundo álbum más vendido de la historia."
+    "name": "Thriller",
+    "artist": "Michael Jackson",
+    "albumArt": "https://preview.redd.it/80rt2zjgjfx41.jpg?width=960&crop=smart&auto=webp&s=f10b4db33a50f324d870b8b4c55ee73488e78926",
+    "price": 20000.0,
+    "description": "El disco más vendido de todos los tiempos. Incluye 'Beat It', 'Billie Jean' y el legendario 'Thriller'."
   },
   {
     "id": 3,
-    "title": "Michael Jackson - Thriller",
-    "price": 25000,
-    "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png",
-    "description": "El álbum más vendido de la historia. Un clásico eterno."
+    "name": "Back in Black",
+    "artist": "AC/DC",
+    "albumArt": "https://http2.mlstatic.com/cd-ac-dc-back-in-black-D_NQ_NP_726812-MLM25585373943_052017-F.jpg",
+    "price": 20000.0,
+    "description": "El álbum más poderoso de AC/DC, un tributo a Bon Scott lleno de riffs inolvidables y energía pura."
   },
   {
     "id": 4,
-    "title": "Metallica - Master of Puppets",
-    "price": 22000,
-    "image": "https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg",
-    "description": "Obra maestra del thrash metal lanzada en 1986."
+    "name": "Muerte",
+    "artist": "Canserbero",
+    "albumArt": "https://tse3.mm.bing.net/th/id/OIP.8Nfymo9z-iT-iZmvdAK2xgHaHa?pid=Api&P=0&h=180",
+    "price": 20000.0,
+    "description": "Una obra profunda y conmovedora del rap latino, donde Canserbero explora emociones intensas, dualidades y reflexiones sobre la vida y la muerte."
+  },
+  {
+    "id": 5,
+    "name": "Greatest Hits",
+    "artist": "2Pac",
+    "albumArt": "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/aa/07/db/aa07db20-0b14-d09c-ead7-5b9e3680cb76/00602527051840.rgb.jpg/1200x1200bb.jpg",
+    "price": 20000.0,
+    "description": "El mejor recopilatorio del legendario 2Pac. Una colección llena de mensajes sociales, emociones reales y flow inmortal."
+  },
+  {
+    "id": 6,
+    "name": "Marshall Mathers LP",
+    "artist": "Eminem",
+    "albumArt": "https://www.udiscovermusic.com/wp-content/uploads/2019/05/Eminem-The-Marshall-Mathers-LP.jpg",
+    "price": 20000.0,
+    "description": "El álbum más intenso y personal de Eminem. Un clásico del hip-hop lleno de crudeza, técnica, storytelling e impacto cultural."
   }
 ]
